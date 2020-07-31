@@ -3,7 +3,7 @@ $dbhost = getenv ("MYSQL_SERVICE_SERVICE_HOST");
 $dbport = getenv ("MYSQL_SERVICE_SERVICE_PORT");
 $dbuser = 'root';
 $dbpwd  = getenv ("MYSQL_ROOT_PASSWORD");
-$dbpwd  = getenv ("MYSQL_DBNAME");
+$dbpwd  = getenv ("MYSQL_DATABASE");
 
 $connection = mysql_connect($dbhost.":".$dbport, $dbuser, $dbpwd);
 
