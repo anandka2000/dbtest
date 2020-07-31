@@ -19,7 +19,7 @@ $query = "SELECT * from users";
 
 $rs = mysql_query($query);
 while ($row = mysql_fetch_assoc($rs)) {
-        echo $row['user_id]." ".$row['username']."\n";
+        echo $row['user_id']." ".$row['username']."\n";
 }
 
 mysql_close ();
